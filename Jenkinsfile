@@ -1,4 +1,5 @@
-/* pipeline {
+/*
+pipeline {
     agent { docker  'python:3.6.4' }
     stages {
         stage('build') {
@@ -13,7 +14,8 @@
             }
         }
     }
-} */
+}
+*/
 
 node('docker') {
     checkout scm
