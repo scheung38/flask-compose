@@ -5,7 +5,9 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+        }
 
+        stage('print') {
             steps {
                 sh 'ls -al'
             }
