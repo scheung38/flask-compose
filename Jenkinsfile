@@ -7,7 +7,7 @@ pipeline {
             }
 
             steps {
-                sh 'echo $PATH'
+                sh 'ls -al'
             }
         }
     }
