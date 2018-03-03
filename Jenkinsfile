@@ -5,6 +5,10 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+
+            steps {
+                sh 'echo $PATH'
+            }
         }
     }
 }
